@@ -33,6 +33,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# devise for authentication
+gem 'devise'
+# bootstrap for rails
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
